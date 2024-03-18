@@ -59,8 +59,6 @@ void BucketSort(int arr[]) {
 	}
 
  
-
-   	// Put sorted elements on arr
 	for (j = 0, i = 0; i < NBUCKET; ++i) {
 		struct Node *node;
 		node = buckets[i];
